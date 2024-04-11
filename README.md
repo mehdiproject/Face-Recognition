@@ -27,7 +27,7 @@ The required libraries for the project are imported:
 
 ### 1.2. Data Access Function
 
-A function '_get_data()' is defined to access the images in the database directory. This function returns the images along with their associated labels (student names).
+A function `_get_data()` is defined to access the images in the database directory. This function returns the images along with their associated labels (student names).
 
 ## 2. Face Recognition Model Development
 
