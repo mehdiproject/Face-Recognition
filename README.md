@@ -9,7 +9,7 @@ A database containing images of authorized students is required. Each student's 
 2. Model Creation:
 The face recognition model is developed using Python. This model extracts features from the images in the database and compares them with features from newly captured images to determine the identity of the individual.
 
-##Implementation Steps
+## Implementation Steps
 
 1. Acquisition of Database Images
 1.1. Libraries Importation
@@ -33,12 +33,12 @@ New images are captured through the webcam and processed for feature extraction.
 Features of the new image are compared with features of images in the database.
 If a match is found, the name of the recognized student is displayed; otherwise, "Unknown" is displayed.
 
-##Testing
+## Testing
 The system was tested with various images captured from the webcam to verify its functionality.
 
-##Test Scenarios
+## Test Scenarios
 1. Testing with an image of a person not in the database.
 2. Testing with an image of a person in the database.
 
-##Conclusion
+## Conclusion
 The face recognition system successfully identifies authorized students based on comparing facial features with images stored in the database. This provides efficient access control for the library.
